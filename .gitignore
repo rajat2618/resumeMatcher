@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE/editor
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/
+
+# Uploaded files and data (avoid committing user resumes)
+uploads/
+*.pdf
+
+# Model and embedding caches
+.cache/
+model/
+models/
+*.bin
+*.pt
+*.ckpt
+
+# FAISS indexes
+*.index
+
+# Sensitive files
+.env
+
+# numpy
+*.npy
+
+# OS generated files
+Thumbs.db
